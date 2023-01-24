@@ -1,0 +1,99 @@
+/* Configuração geral */
+body {
+    background-color: white;
+    color: rgb(15, 20, 25);
+  }
+  
+  /* Navegação e Publicações */
+  header ul li a {
+    color: rgb(15, 20, 25);
+    text-decoration: none;
+  }
+  
+  header ul li a:hover {
+    background-color: rgba(15, 25, 20, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Estatísticas */
+  section ul li a {
+    color: rgb(83, 100, 113);
+    text-decoration: none;
+  }
+  
+  section ul li a span {
+    color: rgb(15, 20, 25);
+    font-weight: bold;
+  }
+  
+  section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Ações */
+  section section ul li a {
+    color: rgb(83, 100, 113);
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  section section ul li a:hover {
+    color: white;
+    background-color: rgba(29, 155, 240, 0.1);
+  }
+  
+  section section ul li a.reply-share:hover {
+    background-color: rgba(29, 155, 240, 0.1);
+  }
+  
+  section section ul li a.retzeet:hover {
+    background-color: rgba(0, 186, 124, 0.1);
+  }
+  
+  section section ul li a.like:hover {
+    background-color: rgba(249, 24, 128, 0.1);
+  }
+  
+  /* Nome completo do usuário */
+  h4 {
+    color: rgb(15, 20, 25);
+  }
+  
+  /* Nome do usuário Tzeeter */
+  h5 {
+    color: rgb(83, 100, 113);
+  }
+  
+  /* Descrição da biografia do usuário */
+  p.biography {
+    color: rgb(15, 20, 25);
+  }
+  
+  /* Localização e data de entrada na rede */
+  ul.location-join-date li a {
+    color: rgb(83, 100, 113);
+  }
+  
+  /* Conteúdo do Tzeet */
+  section section h4 {
+    color: rgb(15, 20, 25);
+  }
+  
+  section section h5 {
+    color: rgb(83, 100, 113);
+  }
+  
+  section section p.date {
+    color: rgb(83, 100, 113);
+  }
+  
+  section section p.content {
+    color: rgb(15, 20, 25);
+  }
+  
+  /* Background do Tzeet ao passar o cursor */
+  section section:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
